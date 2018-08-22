@@ -1,0 +1,149 @@
+<div class="row enquiry-container">
+  <form class="col-md-12">
+    <div class="col-md-10 search " style="display: inline-block;">
+      <input class="form-control  mr-sm-4 " type="search" placeholder="Search" aria-label="Search"
+             style="display: inline-block;width: 400px; margin-right: 0 !important; ">
+      <button class="btn ml-2" type="submit">Search</button>
+
+    </div>
+
+    <div class="col-md-2 add" style="display: inline-block;">
+      <button type="button" class="btn btn-primary btn-lg mb-3 offset-md-8" data-toggle="modal" data-target="#AddData">
+        Add
+      </button>
+
+
+    </div>
+  </form>
+
+</div>
+
+<table class="table table-bordered table-hover">
+
+  <thead class="thead-dark">
+  <tr>
+
+    <th scope="col">S.N</th>
+    <th scope="col">GroupName</th>
+    <th scope="col">Course</th>
+    <th scope="col">Role</th>
+    <th scope="col">Activity</th>
+
+  </tr>
+  </thead>
+  <tbody>
+  <tr>
+    <th scope="row">1</th>
+    <td>Java</td>
+    <td>Java Spring</td>
+    <td>student</td>
+    <td name> View <i class="fas fa-edit"></i> Delete</td>
+  </tr>
+  <tr>
+    <th scope="row">2</th>
+    <td>PHP</td>
+    <td>Laravel</td>
+    <td>student</td>
+    <td name> View <i class="fas fa-edit"></i> Delete</td>
+  </tr>
+  <tr>
+    <th scope="row">3</th>
+    <td>Java</td>
+    <td>Android</td>
+    <td>student</td>
+    <td name> View <i class="fas fa-edit"></i> Delete</td>
+  </tr>
+
+  </tbody>
+</table>
+<div class="modal" tabindex="-1" role="dialog" id="AddData">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Group</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <form action="" class="form">
+          <div class="row">
+            <div class="col-6">
+              <div class="form-group">
+                <label for="Name">Name</label>
+                <input type="text" class="form-control" id="Name"  placeholder="Name">
+              </div>
+              <div class="form-group">
+                <label >Select Course</label>
+                <br/>
+                <select value="course">
+                  <option value="Java">Java</option>
+                  <option value="Mean Stack">Mean Stack</option>
+                  <option value="Javascript">JavaScript</option>
+
+                </select>
+              </div>
+              <div class="form-group">
+                <label >Select Mendor</label>
+                <br/>
+                <select value="Mentor">
+                  <option value="Ram">Ram</option>
+                  <option value="Hari">Hari</option>
+                  <option value="Shyam">Shyam</option>
+
+                </select>
+              </div>
+              <div class="form-group">
+                <label >Schedule</label>
+                <br/>
+                <select value="Time">
+                  <option value="morning">10:00 am</option>
+                  <option value="morning">8:00 am</option>
+                  <option value="evening">4:00 pm</option>
+
+                </select>
+              </div>
+            </div>
+            <div class="col-6">
+              <div class="form-group">
+                <label for="Register">Register-Date</label>
+                <input type="text" class="form-control" id="Register"  placeholder="Register Date">
+              </div>
+              <div class="form-group">
+                <label>Duration</label>
+                <br/>
+                <select value="Duration">
+                  <option value="2 months">2 months</option>
+                  <option value="3 months">3 months</option>
+                  <option value="6 months">6 months</option>
+
+                </select>
+              </div>
+              <div class="form-group">
+
+                <input type="text" class="form-control" >
+               <label> Multiple select</label>
+
+                <div class="checkbox">
+                  <label><input type="checkbox" value="">Student 1</label>
+                </div>
+                <div class="checkbox">
+                  <label><input type="checkbox" value="">Student 2</label>
+                </div>
+                <div class="checkbox">
+                  <label><input type="checkbox" value="">Student 3</label>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </form>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-primary">Save changes</button>
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+

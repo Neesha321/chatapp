@@ -1,0 +1,136 @@
+
+
+<div class="container-fluid">
+  <!--<div class="jumbotron-fluid" style="background-color:grey"></div>-->
+  <div class="row">
+    <div class="col-6 login-background text-white text-center">
+     <div>
+      <h1 class="display-2 text-info">IT Glance</h1>
+      <p class="lead text-blue">Be work ready</p>
+       </div>
+      <div>
+        <button type="button" class="btn btn-primary Joinus text-center text-white" data-toggle="modal" data-target="#myModal">
+          Sign UP
+        </button>
+
+
+
+      </div>
+
+    </div>
+
+    <div class="rowone  col-6">
+      <div class=" main w-100">
+        <h3 class="text-center"> Log In
+
+        </h3>
+        <div class="row second">
+          <div class="col-6 iconfb">
+            <a class="googleplusBtn smGlobalBtn" href="#" ></a>
+          </div>
+          <div class="col-6 googleicon">
+            <a class="facebookBtn smGlobalBtn" href="#"></a>
+          </div>
+        </div>
+        <div class="login-or">
+          <hr class="hr-or">
+          <span class="span-or">or</span>
+        </div>
+
+        <form  role="form">
+          <div class="form-group ">
+            <label for="inputUsernameEmail">Username or email</label>
+            <input type="text" class="form-control" id="inputUsernameEmail" required>
+          </div>
+          <div class="form-group">
+
+            <label for="inputPassword">Password</label>
+            <input type="password" class="form-control" id="inputPassword" name="password"
+                   minlength="8" required
+                   placeholder="8 characters minimum">
+          </div>
+
+          <a class="pull-center">Forgot password?</a>
+          <br/>
+          <div class="checkbox pull-right">
+            <label>
+              <input type="checkbox">
+              Remember me </label>
+          </div>
+          <br/>
+          <button type="submit" class="btn btn btn-primary" routerLink="/admin">
+
+            Log In
+          </button>
+        </form>
+
+      </div>
+
+    </div>
+  </div>
+
+</div>
+
+
+<!-- The Modal -->
+<div class="modal" id="myModal">
+  <div class="modal-dialog">
+    <div class="modal-content">
+
+      <!-- Modal Header -->
+      <div class="modal-header">
+        <h4 class="modal-title">SignUp</h4>
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+      </div>
+
+      <!-- Modal body -->
+      <div class="modal-body">
+        <div class="tab-content">
+          <div class="tab-pane active" id="signup">
+            <form class="form-horizontal signup-form">
+
+              <div class="form-group relative">
+
+               <input class="form-control input-lg fontAwesome" id="first_name" name="firstname"  placeholder=" &#xf007;  FirstName"  type="text" required>
+<br/>
+                <input class="form-control input-lg fontAwesome" id="middle_name" name="middlename"  placeholder=" &#xf007; MiddleName"  type="text">
+<br/>
+
+                <input class="form-control input-lg fontAwesome" id="Lastname" name="lastname"  placeholder=" &#xf007; LastName"  type="text" required>
+<br/>
+
+                <input class="form-control input-lg fontAwesome" id="signup_username" name="Contact"  placeholder=" &#xf2b9; Contact"  type="text" required>
+
+<br/>
+                <input class="form-control input-lg fontAwesome" id="signup_password" name="password"  placeholder="&#xf09c; Password"  type="password" required>
+              </div>
+              </form>
+
+            </div>
+
+
+      <!-- Modal footer -->
+      <div class="modal-footer">
+        <div class="form-group">
+          <button class="btn btn-success mx-4"  type="submit" data-toggle="modal" data-target="#Sucess" data-dismiss="modal" >Submit</button>
+
+        <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+      </div>
+</div>
+    </div>
+  </div>
+</div>
+</div>
+  </div>
+<div class="modal" id="Sucess">
+  <div class="modal-dialog text-center modal-sm">
+    <div class="modal-content ">
+
+      <!-- Modal Header -->
+      <div class="modal-body">
+        <h4 class="modal-title">SignUp Sucessfully</h4>
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+      </div>
+      </div>
+    </div>
+  </div>

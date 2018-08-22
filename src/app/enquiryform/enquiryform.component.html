@@ -1,0 +1,116 @@
+<div class="row enquiry-container">
+  <form class="col-md-12">
+    <div class="col-md-10 search " style="display: inline-block;">
+      <input class="form-control  mr-sm-4 " type="search" placeholder="Search" aria-label="Search"
+             style="display: inline-block;width: 400px; margin-right: 0 !important; ">
+      <button class="btn ml-2" type="submit">Search</button>
+
+    </div>
+
+    <div class="col-md-2 add" style="display: inline-block;">
+      <button type="button" class="btn btn-primary btn-lg mb-3 offset-md-8" data-toggle="modal" data-target="#AddData">Add</button>
+
+
+    </div>
+  </form>
+
+</div>
+
+<table class="table table-bordered table-hover">
+
+  <thead class="thead-dark">
+  <tr>
+
+    <th scope="col">S.N</th>
+    <th scope="col">Student Name</th>
+    <th scope="col">Course</th>
+    <th scope="col">Email</th>
+    <th scope="col">Contact</th>
+    <th scope="col">Activity</th>
+
+  </tr>
+  </thead>
+  <tbody>
+  <tr>
+    <th scope="row">1</th>
+    <td>Mark</td>
+    <td>Otto</td>
+    <td>student</td>
+    <td>56678u9</td>
+    <td name> View Edit Delete</td>
+  </tr>
+  <tr>
+    <th scope="row">2</th>
+    <td>Jacob</td>
+    <td>Thornton</td>
+    <td>student</td>
+    <td>jxdhx</td>
+    <td name> View Edit Delete</td>
+  </tr>
+  <tr>
+    <th scope="row">3</th>
+    <td>Larry</td>
+    <td>the Bird</td>
+    <td>student</td>
+    <td>cxj</td>
+    <td name> View Edit Delete</td>
+  </tr>
+
+  </tbody>
+</table>
+<div class="modal" id="AddData">
+  <div class="modal-dialog">
+    <div class="modal-content text-center">
+
+      <!-- Modal Header -->
+      <div class="modal-header">
+        <h4 class="modal-title center">Enquiry Form</h4>
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+      </div>
+
+      <!-- Modal body -->
+      <div class="modal-body">
+        <div class="tab-content">
+          <div class="tab-pane active" >
+            <form class="form-horizontal ">
+
+              <div class="form-group relative">
+
+                <label for="Name"  value="name">Name</label>
+                <input class="form-control input-lg fontAwesome" id="name" name="name"  placeholder=" &#xf007;  Name"  type="text">
+                <br/>
+                <label for="Email"  value="email">Email </label>
+                <input class="form-control input-lg fontAwesome" id="Email" name="email"  placeholder=" &#xf007; Email"  type="text">
+                <br/>
+                <label for="Contact"  value="Contact">Contact</label>
+                <input class="form-control input-lg fontAwesome" id="Contact" name="Contact"  placeholder=" &#xf007;Contact"  type="text">
+                <br/>
+                <label for="Course"  value="Course">Course</label>
+                <input class="form-control input-lg fontAwesome" id="course" name="Course"  placeholder=" &#xf2b9; Course"  type="text" >
+
+                <br/>
+                <label for="Date"  value="date">Date</label>
+                <input class="form-control input-lg fontAwesome" id="Date" name="Date"  placeholder="&#xf09c; Date"  type="number">
+              </div>
+
+            </form>
+
+
+
+          </div>
+
+
+          <!-- Modal footer -->
+          <div class="modal-footer">
+            <div class="form-group">
+              <button class="btn btn-success mx-4"  type="submit" data-toggle="modal" data-target="#Sucess" data-dismiss="modal" >Submit</button>
+
+              <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
